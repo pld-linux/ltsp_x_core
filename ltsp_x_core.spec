@@ -10,6 +10,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/Network
 Source0:	http://dl.sourceforge.net/ltsp/%{name}-%{version}-i386.tgz
+# Source0-md5:	94dc471e8537d47568f35044b1bcfd4a
 URL:		http://www.ltsp.org/
 Requires:	ltsp_core
 AutoProv:	0
