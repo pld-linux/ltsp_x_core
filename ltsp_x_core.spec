@@ -6,9 +6,9 @@ Summary:	Linux Terminal Server Project - X core for terminals
 Summary(pl):	Podstawowa X dla terminali z Linux Terminal Server Project
 Name:		ltsp_x_core
 Version:	3.0.4
-Release:	1
+Release:	2
 License:	GPL
-Group:		Applications/Network
+Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/ltsp/%{name}-%{version}-i386.tgz
 # Source0-md5:	94dc471e8537d47568f35044b1bcfd4a
 URL:		http://www.ltsp.org/
