@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_ltspdir}/usr/X11R6/bin/
 %attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/*.a
 %{_ltspdir}/usr/X11R6/lib/*.so*
-%attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/X11/
-%attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/modules/
+%attr(755,root,root)%{_ltspdir}/usr/X11R6/lib/X11/
+%attr(755,root,root)%{_ltspdir}/usr/X11R6/lib/modules/
