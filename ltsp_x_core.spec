@@ -38,12 +38,12 @@ cp -r {bin,etc,usr} $RPM_BUILD_ROOT%{_ltspdir}/
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(700,root,root,700)
+%defattr(700,root,root,755)
 %doc README
 %{_ltspdir}/bin/
-%attr(600,root,root)%{_ltspdir}/etc/
+%attr(644,root,root)%{_ltspdir}/etc/
 %{_ltspdir}/usr/X11R6/bin/
-%attr(600,root,root)%{_ltspdir}/usr/X11R6/lib/*.a
+%attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/*.a
 %{_ltspdir}/usr/X11R6/lib/*.so*
-%attr(600,root,root)%{_ltspdir}/usr/X11R6/lib/X11/
-%attr(600,root,root)%{_ltspdir}/usr/X11R6/lib/modules/
+%attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/X11/
+%attr(644,root,root)%{_ltspdir}/usr/X11R6/lib/modules/
