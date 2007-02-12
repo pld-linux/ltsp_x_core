@@ -4,7 +4,7 @@
 %define		_arch	i386
 %define		_pver	4.1
 Summary:	Linux Terminal Server Project - X core for terminals
-Summary(pl):	Podstawowe X dla terminali z Linux Terminal Server Project
+Summary(pl.UTF-8):   Podstawowe X dla terminali z Linux Terminal Server Project
 Name:		ltsp_x_core
 Version:	4.0.1
 Release:	0.1
@@ -29,7 +29,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains X core for LTSP terminals.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet zawiera podstawowe X dla terminali LTSP.
 
 %prep
